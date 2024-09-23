@@ -1,0 +1,61 @@
+﻿\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{array}
+
+
+\begin{document}
+
+
+% Start with name and contact information
+\begin{center}
+    {\LARGE Rajanya Ghosh} \\
+    old calcutta road , patulia baisyapara kolkata-700119 \\
+    Phone: +91 8910548197 \\
+    Email: rajanyaghosh04@gmail.com \\
+\end{center}
+
+
+% Include photo in the top-right corner
+\begin{flushright}
+    \includegraphics[width=3cm]{RAJANYA.jpg} % Replace with your photo file path
+\end{flushright}
+
+
+% Education (in table form)
+\section*{Degrees, Institutions, and Dates}
+\begin{tabular}{| m{5cm} | m{5cm} | m{3cm} |}
+    \hline
+    \textbf{Degree} & \textbf{Institution} & \textbf{Year} \\ \hline
+    B.Sc. in Forensic Science & Maulana Abul Kalam Azad University of Technology & 2027 \\ \hline
+    Class 12 & Douglas memorial higher secondary school & 2023 \\ \hline
+    Class 10 & Douglas memorial higher secondary school &  2021 \\ \hline
+\end{tabular}
+
+
+% Awards and Achievements
+\section*{Awards and Achievements}
+\begin{itemize}
+    \item Spell Bee award  - ranked second position in elocution competion 
+    \item poetry publication achievement - Poem got published in school magazine 
+\end{itemize}
+
+
+% Skills section
+\section*{Languages, Computer, and Other Skills}
+\begin{itemize}
+    \item Languages: English (Fluent), Hindi (Fluent), Bengali (Native)
+    \item Computer Skills: LaTeX, Microsoft Office, Java
+    \item Other: Communication, Teamwork, Leadership, Presentation
+\end{itemize}
+
+
+% Activities and Interests (optional)
+\section*{Activities and Interests}
+\begin{itemize}
+    \item dancing
+    \item Painting
+\end{itemize}
+
+
+\end{document}
